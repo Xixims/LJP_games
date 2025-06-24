@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(to bottom, #1e1e2f, #2b2b3f);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.6);
+}
+
+.btn-custom {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #ffca2c;
+}
+
+/* Thèmes par jeu */
+.bg-snake {
+  background: linear-gradient(135deg, #16a085, #2ecc71);
+}
+
+.bg-pacman {
+  background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+.bg-fruit {
+  background: linear-gradient(135deg, #e91e63, #ff9800);
+}
+
+.bg-space {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.bg-flamme {
+  background: linear-gradient(135deg, #8e0e00, #ff6a00);
+}
+
+.bg-labyrinth {
+  background: linear-gradient(135deg, #63add8, #2a5298);
+}
+
+.bg-pizza {
+  background: linear-gradient(135deg, #0c5c11, #8e0e00 );
+}
+
+.bg-plankton {
+  background: linear-gradient(135deg, #2d36d3, #cbcf13 );
+}
+
+.bg-politic {
+  background: linear-gradient(135deg, #a42889, #000000 );
+}
+
+.bg-meduse {
+  background: linear-gradient(135deg, #6dc1df, #cbcf13 );
+}
+
+.bg-unicorn {
+  background: linear-gradient(135deg, #1d33c7, #cf13a3 );
+}
+
+.bg-moskito {
+  background: linear-gradient(135deg, #000000, #cf3613 );
+}
+
+.bg-burger {
+  background: linear-gradient(135deg, #1beb2c, #583116 );
+}
+
+.bg-fashion {
+  background: linear-gradient(135deg, #eac286, #583116 );
+}
+
+.bg-parkour {
+  background: linear-gradient(135deg, #1a184a, #583116 );
+}
+
+.bg-carotte {
+  background: linear-gradient(135deg, #b6892e, #2bd925 );
+}
+
+.logo-lycee {
+  max-height: 60px;
+  width: auto;
+}
